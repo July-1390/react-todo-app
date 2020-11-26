@@ -1,0 +1,141 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 490px;
+  min-height: 600px;
+  background: #d1d5de;
+  border: 1px solid #b7b6c2;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+  margin-top: 30px;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #3E3B5C;
+  font-size: 24px;
+}
+
+.todo-input {
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #657153;
+  outline: none;
+  width: 80%;
+  background: white;
+  color: #3E3B5C;
+}
+
+.todo-input::placeholder {
+  color: #3E3B5C;
+  opacity: 50%;
+}
+
+.todo-button {
+  margin-left: 10px;
+  padding: 16px;
+  font-size: 18px;
+  border: 1px solid #657153;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background: #8AAA79;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px auto;
+  font-size: 18px;
+  background-color: white;
+  border: 1px solid #b7b6c2;
+  color: #3E3B5C;
+  padding: 15px;
+  border-radius: 5px;
+  width: 94%;
+} 
+
+.todo-text {
+  margin-right: auto;
+}
+
+.icon-edit {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #8AAA79;
+} 
+
+.icon-edit-completed {
+  opacity: 0.4;
+}
+
+.icon-delete {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  color: #8AAA79;
+}
+
+.icon-delete-completed {
+  opacity: 0.4;
+}
+
+.submit-todo-input {
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #657153;
+  outline: none;
+  width: 80%;
+  background: white;
+  color: #3E3B5C;
+}
+
+.button-submit {
+  margin-left: 10px;
+  padding: 16px;
+  font-size: 18px;
+  border: 1px solid #657153;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background: #8AAA79;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.highlightedTodo {
+  border: 2px solid #3E3B5C;
+}
+
+.todo-is-completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+
+
+
