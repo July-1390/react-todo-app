@@ -13,9 +13,13 @@ Web App consist of three components Todo, TodoForm and TodoList
 As a user, you can:
 
 :white_check_mark: read a list of tasks
+
 :white_check_mark: add a task
+
 :white_check_mark: mark any task as completed
+
 :white_check_mark: delete any task
+
 :white_check_mark: edit any task
 
 
