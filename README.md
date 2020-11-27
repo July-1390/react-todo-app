@@ -2,7 +2,7 @@
 
 A simple and minimal React-based to-do list web application
 
-![How works my app](public/img/how-work-app.gif)
+![How works my app](public/img/how-app-works.gif)
 
 :point_right: [See live demo](https://choosealicense.com/licenses/mit/) :boom:
 
